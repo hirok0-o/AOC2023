@@ -105,6 +105,7 @@ uint16_t getTotal(std::string filePath)
 	{
 		total += getNumber(line);
 	}
+	file.close();
 
 	return total;
 }

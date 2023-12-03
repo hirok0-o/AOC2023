@@ -82,6 +82,7 @@ uint32_t getTotalPossible(std::string filePath)
             total += val;
         }
     }
+    file.close();
 
     // too lazy to make it accept 3 digits
     // as i know 100th case is possible i add accordingly
@@ -143,6 +144,7 @@ uint32_t getTotalPower(std::string filePath)
     {
         total += getPower(line);
     }
+    file.close();
 
     return total;
 }
