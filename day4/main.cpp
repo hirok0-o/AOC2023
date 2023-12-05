@@ -172,7 +172,7 @@ int main()
 {
 
     const std::string filePath = "./input.txt";
-
+    std::cout << getTotalPart1(filePath) << "\n";
     std::cout << getTotalPart2(filePath);
 
     return 0;
